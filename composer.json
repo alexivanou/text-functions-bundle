@@ -1,0 +1,27 @@
+{
+    "name" : "alexivanou/text-functions-bundle",
+    "description" : "Some text functions",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "psylosss",
+        "email" : "psylosss@gmail.com"
+    }],
+    "keywords" : ["text", "plural", "num2str"],
+    "license" : [
+        "proprietary"
+    ],
+    "require" : {
+    },
+    "autoload": {
+        "psr-4": {
+            "Psystems\\TextFunctionsBundle\\": ""
+        }
+    },
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+                "dev-master" : "dev-default"
+            }
+    }
+}

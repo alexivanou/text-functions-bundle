@@ -1,0 +1,16 @@
+services:
+    alexivanou.text_functions:
+        class: Psystems\TextFunctionsBundle\Services\TextFunctions
+
+    alexivanou.twig.text_functions:
+        class: Psystems\TextFunctionsBundle\Twig\Extension\TextExtension
+        arguments: ["@alexivanou.text_functions"]
+        tags:
+            - { name: twig.extension }
+
+    alexivanou.twig.time_ago_in_words:
+        class: Psystems\TextFunctionsBundle\Twig\Extension\TimeAgoExtension
+        arguments: ["@translator"]
+        tags:
+            - { name: twig.extension }
+
