@@ -18,10 +18,7 @@
         }
     },
     "repositories" : [{
-    }],
-    "extra" : {
-        "branch-alias" : {
-                "dev-master" : "dev-default"
-            }
-    }
+        "type" : "github",
+        "url" : "https://github.com/alexivanou/text-functions-bundle"
+    }]
 }
